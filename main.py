@@ -63,4 +63,4 @@ token = os.getenv('CR_TOKEN',"NA")
 if token == 'NA':
 	token = open('DebugFiles/localKey.txt').read()
 
-client.run(token)
+client.run(os.getenv('TOKEN'))
