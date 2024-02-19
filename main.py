@@ -59,8 +59,8 @@ async def on_member_remove(member):
 
 
 #Add Your Bot Token
-token = os.getenv('CR_TOKEN',"NA")
-if token == 'NA':
-	token = open('DebugFiles/localKey.txt').read()
+# token = os.getenv('CR_TOKEN',"NA")
+# if token == 'NA':
+# 	token = open('DebugFiles/localKey.txt').read()
 
 client.run(os.getenv('TOKEN'))
